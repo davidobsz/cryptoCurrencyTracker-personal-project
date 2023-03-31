@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Page</title>
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cryptocurrency tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/">BTC</a></li>
+                <li><a href="/eth">ETH</a></li>
+                <li><a href="#">Other Crypto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h3>Current BTC price in $</h3>
+            <p>{{  data  }}</p>
+            <div class="image-container">
+                <img src="{{  img_30_min  }}">
+                <img src="{{  img_1_week  }}">
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="footer">
+        <p>&copy; 2023 My Web Page. All rights reserved.</p>
+    </footer>
+</body>
+<script>
+
+setInterval(function(){
+    location.reload();
+}, 5000);
+</script>
+</html>

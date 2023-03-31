@@ -1,0 +1,70 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 20px;
+
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    margin: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+h1, h2 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.image-container {
+ /* This makes the container a flexbox */
+  justify-content: center; /* This centers the images horizontally */
+  margin:1%;
+    padding-right: 6%;
+    padding-bottom: 10%;
+}
+
+.image-container img {
+  width: 75%; /* Set the width of each image to 50% of the container */
+  padding-top: 1%; /* Add some spacing between the images */
+
+}
